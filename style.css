@@ -1,0 +1,109 @@
+h3,p {
+  margin-bottom: 0px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+    background: #7C33E4;
+background: linear-gradient(90deg, rgb(124, 51, 228) 0%, rgba(199, 72, 144, 1) 100%)
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: white !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+ul li a:hover {
+  background-color: #111111 !important;
+}
+.main {
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+
+h2.middle {
+    text-align: center;
+}
+h1.middle{
+    text-align: center;
+    color: white;
+}
+/* Reduce space between GCSE and Grades paragraph */
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 2px !important;
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  color : white;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  margin-top: 2px !important;
+  color : rgb(255, 255, 255);
+  text-align: center;
+}
+
+a:link {
+  color: rgb(46, 253, 243);
+  text-align: center;
+}
+
+
+a:visited {
+  color: rgb(46, 253, 243);
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(0, 195, 255);
+  text-align: center;
+}
+
+div.ex1 {
+  max-width: 600px;
+  margin: auto;
+}
